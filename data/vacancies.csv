@@ -1,0 +1,21 @@
+id,title,min_salary,max_salary,status
+V001,Junior Python Developer,4000,5500,Open
+V002,Middle Python Engineer,1500,3000,Interviewing
+V003,Senior Backend Architect,3000,4500,Interviewing
+V004,Frontend React Engineer,1500,2700,Open
+V005,Fullstack Developer (Node/React),1500,3000,Closed
+V006,Lead DevOps Engineer,4000,5200,Closed
+V007,Junior Data Scientist,3000,4500,Interviewing
+V008,Senior ML Engineer,2000,2800,Open
+V009,QA Automation Engineer,4000,5200,Open
+V010,Product Manager,1000,1800,Open
+V011,Junior Python Developer,1500,3000,Interviewing
+V012,Middle Python Engineer,4000,4800,Interviewing
+V013,Senior Backend Architect,3000,4500,Interviewing
+V014,Frontend React Engineer,4000,5200,Closed
+V015,Fullstack Developer (Node/React),1000,2500,Open
+V016,Lead DevOps Engineer,4000,5200,Open
+V017,Junior Data Scientist,1000,2200,Interviewing
+V018,Senior ML Engineer,1500,2700,Open
+V019,QA Automation Engineer,2000,3500,Open
+V020,Product Manager,4000,4800,Open

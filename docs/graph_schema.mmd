@@ -1,0 +1,28 @@
+graph TD
+    %% Вузли з ключовими властивостями
+    Candidate["<b>:Candidate</b><br/>id: String<br/>name: String<br/>experience_years: Int<br/>expected_salary: Int<br/>city: String"]
+    Skill["<b>:Skill</b><br/>id: String<br/>name: String<br/>category: String"]
+    Vacancy["<b>:Vacancy</b><br/>id: String<br/>title: String<br/>min_salary: Int<br/>max_salary: Int<br/>status: String"]
+    Application["<b>:Application</b><br/>id: String<br/>applied_date: Date<br/>status: String"]
+    Interview["<b>:Interview</b><br/>id: String<br/>stage: String<br/>status: String<br/>interview_date: Date"]
+    Company["<b>:Company</b><br/>id: String<br/>name: String<br/>industry: String"]
+    Recruiter["<b>:Recruiter</b><br/>id: String<br/>name: String<br/>agency: String"]
+
+    %% Зв'язки з властивостями походження (source, confidence, validFrom)
+    Candidate -->|"HAS_SKILL<br/>"| Skill
+    Vacancy -->|"REQUIRES_SKILL<br/>"| Skill
+    Candidate -->|"SUBMITTED<br/>"| Application
+    Application -->|"FOR_VACANCY<br/>"| Vacancy
+    Company -->|"POSTED<br/>"| Vacancy
+    Recruiter -->|"MANAGES<br/>"| Vacancy
+    Application -->|"HAS_STAGE<br/>"| Interview
+    Recruiter -->|"CONDUCTS<br/>"| Interview
+
+    %% Стилізація блоків
+    style Candidate fill:#dae8fc,stroke:#6c8ebf,stroke-width:2px
+    style Skill fill:#d5e8d4,stroke:#82b366,stroke-width:2px
+    style Vacancy fill:#ffe6cc,stroke:#d79b00,stroke-width:2px
+    style Application fill:#fff2cc,stroke:#d6b656,stroke-width:2px
+    style Interview fill:#e1d5e7,stroke:#9673a6,stroke-width:2px
+    style Company fill:#f8cecc,stroke:#b85450,stroke-width:2px
+    style Recruiter fill:#bac8d3,stroke:#23445d,stroke-width:2px

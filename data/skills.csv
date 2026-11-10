@@ -1,0 +1,26 @@
+id,name,category
+SK001,Python,Programming
+SK002,JavaScript,Programming
+SK003,TypeScript,Programming
+SK004,Java,Programming
+SK005,C++,Programming
+SK006,Go,Programming
+SK007,FastAPI,Framework
+SK008,Django,Framework
+SK009,React,Framework
+SK010,Vue.js,Framework
+SK011,Node.js,Framework
+SK012,Spring Boot,Framework
+SK013,PostgreSQL,Database
+SK014,Neo4j,Database
+SK015,Redis,Database
+SK016,Docker,DevOps
+SK017,Kubernetes,DevOps
+SK018,CI/CD,DevOps
+SK019,AWS,Cloud
+SK020,GCP,Cloud
+SK021,Git,Tool
+SK022,Scikit-Learn,Data Science
+SK023,PyTorch,Data Science
+SK024,Scrum,Methodology
+SK025,Communication,Soft Skill
